@@ -1,0 +1,30 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Swami Vivekanad Seva Pratishthan"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "logo/svsp_logo.png"
+  description = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened for SEO
+  copyright = "© Copyright { year }, All Rights Reserved | Swami Vivekanad Seva Pratishthan"
+
+[params.author]
+  name = "Swami Vivekanad Seva Pratishthan"
+  email =  "vivekanand.chikkumbimath@gmail.com"
+  image = "logo/svsp_logo.png"
+  imageQuality = 100
+  headline = "Building a Future filled with Hopes and Possibilities"
+  bio = "SVSP Belagavi: Transforming lives of underprivileged children through education and skill development." # Shortened and consistent
+  links = [
+    { email = "mailto:svspbelagavi@gmail.com" },
+    { facebook = "https://www.facebook.com/profile.php?id=100079093874907"},
+    { github = "https://github.com/svspbelagavi" },
+    { instagram = "https://www.instagram.com/svspbelagavi/" },
+    { linkedin = "https://www.linkedin.com/in/svspbelagavi/" },
+    { x-twitter = "https://twitter.com/svspbelagavi" },
+    { youtube = "https://www.youtube.com/@svspbelagavi" }
+  ]
