@@ -1,6 +1,13 @@
 ---
 title: "Contact Us"
 description: "Get in touch with Swami Vivekanand Seva Pratishthan (SVSP). Find our address, phone number, email, and location."
+showViews: false
+showLikes: false
+showDate: false
+showTableOfContents: false
+showReadingTime: false
+showZenMode: false
+showDateOnlyInArticle: false
 ---
 
 <p style="margin-bottom: 2rem; text-align: justify">We welcome your inquiries, feedback, and interest in supporting Swami Vivekanand Seva Pratishthan. Whether you have questions about our programs, want to learn more about volunteering opportunities, or wish to make a donation, please don't hesitate to reach out.  We are dedicated to empowering women and children through education and skill development, and your support is invaluable to our mission.</p>

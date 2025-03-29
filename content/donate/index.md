@@ -1,11 +1,15 @@
 ---
 title: "Donate Now"
 description: "Support Swami Vivekanand Seva Pratishthan's work with underprivileged children and women. Your donation makes a difference."
+showViews: false
+showLikes: false
+showDate: false
+showTableOfContents: false
+showReadingTime: false
+showZenMode: false
+showDateOnlyInArticle: false
 ---
-
-<h2 style="text-align: center; margin-bottom: 2rem; font-weight: 600;">Donate Now</h2>
-
-#### OUR FUTURE EXPANSION PLANS
+### OUR FUTURE EXPANSION PLANS
 
 <p style="text-align: justify;">Swami Vivekanand Seva Pratishthan has been supporting children for the past 42 years. Now we intend to extend our support for children with special needs at our center. We are currently setting up a state of art facility for education and training of children with special needs in the same premises. Already, a special room with the required equipment and training material is ready and being used for our in-house children identified with special needs. Soon, we intend to make this facility available for children from outside the center as well. An endeavor of this magnitude can only be taken up and completed with the co-operation and assistance of philanthropists from the society.</p>
 
@@ -73,5 +77,5 @@ description: "Support Swami Vivekanand Seva Pratishthan's work with underprivile
 <p>NGO Darpan ID : KA/2016/0105010</p>
 <p>Contact us (Mobile no.) :9606869122 / 6360719554</p>
 <div style="text-align: center; margin-top: 2rem;">
-   <img src="/img/donate/qrcode.jpg" alt="SVSP Donation QR Code">
+   <img src="/img/payment-qr.webp" alt="SVSP Donation QR Code">
 </div>

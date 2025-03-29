@@ -1,6 +1,14 @@
 ---
 title: "About Us"
 description: "Learn about Swami Vivekanand Seva Pratishthan (SVSP) and our mission to empower women and children."
+showViews: false
+showLikes: false
+showDate: false
+showTableOfContents: false
+showDateUpdated: false
+showReadingTime: false
+showZenMode: false
+showDateOnlyInArticle: false
 ---
 <p style="text-align: justify; margin-bottom: 2rem;">Swami Vivekanand Seva Pratishthan is a name that evokes a sense of wholehearted service to the society. It was established as a Trust in 1982 and registered under the Bombay Public Trust Act 1950 (Registration No. E556BGM on 04-06-1982). The name bears a significance, because it is the same of one of India’s greatest saints of the twentieth century, Swami Vivekanand. The mission to start this organization was to serve the orphaned, abandoned, destitute and the less privileged children of the society.</p>
 

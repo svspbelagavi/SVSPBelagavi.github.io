@@ -4,13 +4,11 @@ description: "Empowering women and children through education, skill development
 layout: fixed
 ---
 
-{{< hero 
-  title="Every child deserves a chance to shine." 
-  subtitle="Building a future filled with hope and possibility." 
+<!-- {{< hero   
   image="/img/hero-banner.jpg" 
   cta_text="Donate Now" 
   cta_url="/appeal_for_donation" 
->}}
+>}} -->
 
 ## About SVSP
 
