@@ -11,7 +11,7 @@ robots = "all"
 disableImageZoom = false
 disableImageOptimization = false
 disableTextInHeader = true
-defaultBackgroundImage = "/img/background1.jpg"
+defaultBackgroundImage = "/img/background2.jpg"
 defaultFeaturedImage = "/img/featured.jpg"
 highlightCurrentMenuArea = true
 smartTOC = false
@@ -29,7 +29,7 @@ smartTOC = false
 
 [homepage]
   layout = "background"
-  homepageImage = "/img/background1.jpg"
+  homepageImage = "/img/background2.jpg"
   showRecent = false
   showRecentItems = 3
   showMoreLink = true

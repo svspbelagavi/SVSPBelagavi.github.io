@@ -7,7 +7,7 @@ layout: fixed
 {{< hero 
   title="Every child deserves a chance to shine." 
   subtitle="Building a future filled with hope and possibility." 
-  image="/img/hero-banner.webp" 
+  image="/img/hero-banner.jpg" 
   cta_text="Donate Now" 
   cta_url="/appeal_for_donation" 
 >}}
@@ -17,7 +17,7 @@ layout: fixed
 Swami Vivekanand Seva Pratishthan serves society by caring for orphaned, abandoned, and less privileged children.  
 Established in 1982 and registered under the Bombay Public Trust Act, our mission is holistic child welfare.
 
-![About SVSP](/img/swami-vivekanand-seva-pratishthan-about-us.webp)
+![About SVSP](/img/about-us.jpg)
 
 ### Objectives:
 - Quality education for orphaned children
@@ -29,9 +29,9 @@ Established in 1982 and registered under the Bombay Public Trust Act, our missio
 ## Our Projects
 
 {{< card-grid >}}
-{{< card image="/img/gangamma-chikkumbimath-bal-kalyan-kendra.webp" title="Gangamma Chikkumbimath Bal Kalyan Kendra" url="/projects" >}}
-{{< card image="/img/svsp-adoption-centre-and-centre.webp" title="SVSP Adoption Centre and Care Center" url="/projects" >}}
-{{< card image="/img/prarambh.webp" title="Prarambh" url="/projects" >}}
+{{< card image="/img/gangamma-chikkumbimath-bal-kalyan-kendra.jpg" title="Gangamma Chikkumbimath Bal Kalyan Kendra" url="/projects" >}}
+{{< card image="/img/svsp-adoption-centre-and-centre.jpg" title="SVSP Adoption Centre and Care Center" url="/projects" >}}
+{{< card image="/img/prarambh.jpg" title="Prarambh" url="/projects" >}}
 {{< /card-grid >}}
 
 ## Numbers Speak
