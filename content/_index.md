@@ -1,7 +1,7 @@
 ---
 title: "Welcome to SVSP Belagavi"
 description: "Empowering women and children through education, skill development, and support."
-layout: fixed
+layout: fixed 
 ---
 
 <!-- {{< hero   
@@ -45,23 +45,8 @@ Established in 1982 and registered under the Bombay Public Trust Act, our missio
 Hon'ble Governor of Karnataka Shri. Thavarchand Gehlot visited the Ashram.  
 We were recognized by the Government of Karnataka in 1988 & 2020 with Certificates of Appreciation for Child Welfare.
 
-## Our Key Donors
-1. Shri Hanumantappa Galgali  
-2. Bank Note Paper India, Mysuru  
-3. HNB Engineers, Pune  
-4. Dr. P.V. Havaldar  
-5. Smt. Shantadevi Hiremath  
-6. Shri Radhakrishna Vithoba Shenvi  
-7. Shri Prakash Davda  
-8. Polyhydron Foundation  
-9. CREDAI-Belagavi  
-10. Shri Nitin Bhandari  
-11. Karnataka Co-operative Milk Federation-Belagavi  
-12. Smt. Shruti Deshpande  
-13. AKXA Tech Pvt. Ltd.  
-14. Shri Jaydeep Jasani  
-15. Shri Ishwarappa R. Chonnad  
-16. Smt. Asmita Pawar  
+## Our Key Donors  
+{{< donors-carousel >}}
 
 ## Support Our Cause
 

@@ -1,0 +1,40 @@
+<div class="donors-carousel swiper-container my-10">
+  <div class="swiper-wrapper">
+    {{ range .Site.Data.donors }}
+      <div class="swiper-slide flex flex-col items-center p-6 bg-white rounded-xl shadow transition hover:scale-105">
+        <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-24 h-24 object-contain mb-4">
+        <p class="text-center text-base font-semibold">{{ .name }}</p>
+      </div>
+    {{ end }}
+  </div>
+  <div class="swiper-pagination mt-4"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new Swiper('.donors-carousel', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 4 }
+      }
+    });
+  });
+</script>
