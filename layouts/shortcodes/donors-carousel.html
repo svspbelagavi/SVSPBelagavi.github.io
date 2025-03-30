@@ -53,6 +53,22 @@
   </button>
 </div>
 
+{{- $donors := .Scratch.Get "donors" -}}
+{{- if $donors -}}
+<div class="donor-carousel-container relative overflow-hidden">
+  <div class="donor-carousel flex">
+    {{- range $donors -}}
+      <div class="carousel-item flex-shrink-0 w-1/3 md:w-1/5 p-2 flex items-center justify-center overflow-hidden">
+        <a href="{{ .Params.website | default "#" }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ .Params.logo }}" alt="{{ .Title }} logo" class="block w-full h-auto object-contain">
+        </a>
+      </div>
+    {{- end -}}
+  </div>
+  <!-- Carousel controls (arrows) might be here -->
+</div>
+{{- end -}}
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     // Initialize carousel
