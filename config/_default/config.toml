@@ -12,8 +12,6 @@ buildFuture = false
   anchor = 'Center'
 
 [taxonomies]
-   committee = "committee"
-   project = "projects"
 
 [sitemap]
   changefreq = 'always'

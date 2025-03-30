@@ -4,7 +4,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 replyByEmail = false
-mainSections = ["events"]
+mainSections = ["projects"]
 showViews = true
 showLikes = true
 robots = "all"
@@ -15,7 +15,7 @@ defaultBackgroundImage = "/img/background2.jpg"
 defaultFeaturedImage = "/img/featured.jpg"
 highlightCurrentMenuArea = true
 smartTOC = false
-# smartTOCHideUnfocusedChildren = false
+smartTOCHideUnfocusedChildren = true
 
 [header]
   layout = "fixed-fill-blur"
@@ -24,7 +24,7 @@ smartTOC = false
   showMenu = true
   showCopyright = true
   showThemeAttribution = false
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
@@ -73,7 +73,7 @@ smartTOC = false
   showHero = true
   heroStyle = "thumbAndBackground"
   layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = true
+  layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showSummary = true
   showViews = false
@@ -83,7 +83,7 @@ smartTOC = false
   groupByYear = false
   cardView = true
   cardViewScreenWidth = false
-  constrainItemsWidth = false
+  constrainItemsWidth = true
 
 [sitemap]
   excludedKinds = []

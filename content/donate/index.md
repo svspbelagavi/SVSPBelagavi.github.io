@@ -13,6 +13,9 @@ showDateOnlyInArticle: false
 
 <p style="text-align: justify;">Swami Vivekanand Seva Pratishthan has been supporting children for the past 42 years. Now we intend to extend our support for children with special needs at our center. We are currently setting up a state of art facility for education and training of children with special needs in the same premises. Already, a special room with the required equipment and training material is ready and being used for our in-house children identified with special needs. Soon, we intend to make this facility available for children from outside the center as well. An endeavor of this magnitude can only be taken up and completed with the co-operation and assistance of philanthropists from the society.</p>
 
+## Our Key Donors  
+{{< donors-carousel >}}
+
 <h4 style="margin-top:1.5em; margin-bottom: 1em;">APPEAL</h4>
 
 <p style="text-align: justify;">Swami Vivekanand Seva Pratishthan (Gangamma Chikkumbimath Bal Kalyan Kendra) has been able to serve the society for 42 years with the generous support of donors and well - wishers. The center intends to expand its capacity and take in more children who need all the love, care and nourishment they deserve. We sincerely appeal to you to help SVSP in this noble task by contributing generously. You can also help us by sponsoring in the following endeavors-</p>
