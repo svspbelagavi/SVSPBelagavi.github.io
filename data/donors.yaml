@@ -1,47 +1,47 @@
 - name: "Shri Hanumantappa Galgali"
-  image: "/images/donors/hanumantappa.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Bank Note Paper India, Mysuru"
-  image: "/images/donors/bank-note.jpg"
+  image: "/img/donors/bnpi.png"
 
 - name: "HNB Engineers, Pune"
-  image: "/images/donors/hnb-engineers.jpg"
+  image: "/img/donors/hnb.png"
 
 - name: "Dr. P.V. Havaldar"
-  image: "/images/donors/havaldar.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Smt. Shantadevi Hiremath"
-  image: "/images/donors/shantadevi.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Shri Radhakrishna Vithoba Shenvi"
-  image: "/images/donors/radhakrishna.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Shri Prakash Davda"
-  image: "/images/donors/prakash.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Polyhydron Foundation"
-  image: "/images/donors/polyhydron.jpg"
+  image: "/img/donors/polyhydron_foundation.png"
 
 - name: "CREDAI-Belagavi"
-  image: "/images/donors/credai.jpg"
+  image: "/img/donors/credai.png"
 
 - name: "Shri Nitin Bhandari"
-  image: "/images/donors/nitin.jpg"
+  image: "/img/donors/nitin_bhandari.png"
 
 - name: "Karnataka Co-operative Milk Federation-Belagavi"
-  image: "/images/donors/karnataka-milk.jpg"
+  image: "/img/donors/kmf.png"
 
 - name: "Smt. Shruti Deshpande"
-  image: "/images/donors/shruti.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "AKXA Tech Pvt. Ltd."
-  image: "/images/donors/akxa.jpg"
+  image: "/img/donors/akxa.png"
 
 - name: "Shri Jaydeep Jasani"
-  image: "/images/donors/jaydeep.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Shri Ishwarappa R. Chonnad"
-  image: "/images/donors/ishwarappa.jpg"
+  image: "/img/donors/donor.png"
 
 - name: "Smt. Asmita Pawar"
-  image: "/images/donors/asmita.jpg"
+  image: "/img/donors/donor.png"
