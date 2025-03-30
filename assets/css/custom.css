@@ -38,6 +38,35 @@
   }
 }
 
+/* Enhanced responsive styling for donor carousel */
+@media (max-width: 480px) {
+  /* Hide navigation arrows on very small screens */
+  [data-carousel-prev], [data-carousel-next] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* Ensure indicators are visible but not too big on mobile */
+  [data-carousel-slide-to] {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+  }
+}
+
+/* Smooth transitions for carousel items */
+[data-carousel-item] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Ensure text doesn't overflow on tiny screens */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Fix excessive side spacing */
 .container-xl, 
 .max-w-screen-xl,
