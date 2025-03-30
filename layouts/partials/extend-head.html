@@ -2,3 +2,15 @@
   {{ $css := . | resources.Minify | resources.Fingerprint "sha512" }}
   <link type="text/css" rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ end }}
+
+<!-- Force style overrides for fire scheme -->
+<style>
+  [data-scheme="fire"] .main-article,
+  [data-scheme="fire"] .article-content {
+    background-color: transparent !important;
+  }
+  .prose {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+</style>

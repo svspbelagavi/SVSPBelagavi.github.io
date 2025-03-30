@@ -69,75 +69,44 @@
   margin-right: auto;
 }
 
-/* ENHANCED: Comprehensive purple background removal */
-/* Target all page containers that might have the fire scheme background */
-.article-container,
-.main-article,
-.article-content,
-.article-header,
-.article-footer,
-.list-section,
-.home-section,
-.section-content,
-.card, 
-.card-content,
-.prose,
-main,
-.main,
-.content-section,
-.container,
-.container-fluid,
-.page-wrapper,
-body > div,
-[data-scheme="fire"] .article-wrapper,
+/* Remove unwanted purple backgrounds from fire theme */
+[data-scheme="fire"] .article-container,
+[data-scheme="fire"] .main-article,
+[data-scheme="fire"] .article-content,
+[data-scheme="fire"] main,
 [data-scheme="fire"] .page-wrapper,
-[data-scheme="fire"] .main-wrapper {
+[data-scheme="fire"] .main-section,
+[data-scheme="fire"] .article-header,
+[data-scheme="fire"] .article-footer {
   background-color: transparent !important;
   background-image: none !important;
 }
 
-/* Specifically target hero sections */
-.hero,
-.hero-body,
-.hero-image,
-.hero-overlay,
-.hero-content,
+/* Specifically target hero sections in fire theme */
 [data-scheme="fire"] .hero,
-[data-scheme="fire"] .hero-body {
+[data-scheme="fire"] .hero-body,
+[data-scheme="fire"] .hero-overlay {
   background-color: transparent !important;
   background-image: none !important;
+  opacity: 1 !important;
 }
 
-/* Fix image backgrounds and shadows */
-.article-image,
-.list-image,
-.card-image,
-.featured-image,
-img {
-  background-color: transparent !important;
-  background: none !important;
-}
-
-/* Prevent overflow on mobile layouts */
-.article-content > *,
+/* Fix max width for content containers */
+.max-w-prose, 
+.prose,
 .prose > * {
+  max-width: 100% !important;
+}
+
+/* Ensure proper image display */
+img {
   max-width: 100%;
-}
-
-/* Set site background color explicitly */
-body {
-  background-color: #fff;
-}
-
-/* Completely disable the fire scheme overlay when it appears */
-[data-scheme="fire"] .hero-overlay {
-  opacity: 0 !important;
+  height: auto;
   background: none !important;
 }
 
-/* Override content width using basic HTML element selectors to ensure coverage */
-article, section, header, footer, div.container, div.content {
+/* Override fire scheme color variables */
+:root {
   --purple-background: transparent !important;
-  --content-bg: transparent !important;
-  --background-color: transparent !important;
+  --color-primary-600: 0, 90, 135 !important; /* Blue instead of purple */
 }
