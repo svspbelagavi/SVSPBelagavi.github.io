@@ -1,7 +1,7 @@
 ---
 title: "Welcome to SVSP Belagavi"
 description: "Empowering women and children through education, skill development, and support."
-layout: fixed 
+layout: "full" 
 ---
 
 <!-- {{< hero   

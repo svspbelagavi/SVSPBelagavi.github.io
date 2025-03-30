@@ -1,6 +1,7 @@
 ---
 title: "Donate Now"
 description: "Support Swami Vivekanand Seva Pratishthan's work with underprivileged children and women. Your donation makes a difference."
+layout: "full"
 showViews: false
 showLikes: false
 showDate: false
