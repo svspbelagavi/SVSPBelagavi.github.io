@@ -1,0 +1,16 @@
+<div id="donateModal" class="donate-modal">
+  <div class="donate-modal-content">
+    <span class="donate-close" onclick="closeDonateModal()">&times;</span>
+    <h2>Donate to SVSP Belagavi</h2>
+    <div class="donate-content">
+      <div class="qr-container">
+        <img src="{{ .Site.Params.donateQRImage | relURL }}" alt="Donation QR Code">
+        <p class="qr-caption">Scan to donate</p>
+      </div>
+      <div class="bank-details">
+        <h3>Bank Transfer Details</h3>
+        <pre>{{ .Site.Params.donateBankDetails }}</pre>
+      </div>
+    </div>
+  </div>
+</div>

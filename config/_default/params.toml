@@ -113,6 +113,13 @@ smartTOCHideUnfocusedChildren = true
 
 # [fathomAnalytics]
 
-# [buymeacoffee]
-
-# [verification]
+[buymeacoffee]
+  globalWidget = true
+  donateButtonText = "Donate Now"
+  donateQRImage = "img/payment-qr.webp"
+  donateBankDetails = "1234"
+  Bank = "State Bank of India"
+  AccountName = "Swami Vivekanand Seva Pratishthan"
+  AccountNumber = "1234567890"
+  IFSC = "SBIN0000XXX"
+  Branch = "Belagavi Main Branch"
