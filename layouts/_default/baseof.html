@@ -1,0 +1,4 @@
+{{ $baseof := resources.Get "layouts/_default/baseof.html" | resources.ExecuteAsTemplate "baseof.html" . }}
+{{ $baseof := replace $baseof "<script data-name=\"BMC-Widget\"" "<!-- Removed BMC Widget -->\n<!--<script data-name=\"BMC-Widget\"" }}
+{{ $baseof := replace $baseof "data-y_margin=\"18\"></script>" "data-y_margin=\"18\"></script>-->" }}
+{{ $baseof | safeHTML }}
